@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HDFC Life Insurance – Akash Chauhan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.25rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.08rem;
+    }
+    .quote-section {
+      background-color: #e9f5ff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .quote-section p {
+      margin: 10px 0 20px;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: grid;
+      gap: 15px;
+      text-align: left;
+    }
+    input, select, button {
+      padding: 12px;
+      font-size: 0.9rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button[type="submit"] {
+      background-color: #004aad;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .hero {
+      padding: 60px 20px;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 0.99rem;
+      margin-bottom: 30px;
+    }
+    .cta-button {
+      padding: 15px 30px;
+      background-color: #004aad;
+      color: white;
+      font-size: 0.9rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #ffffff;
+    }
+    .feature {
+      flex: 1 1 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f1f3f5;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HDFC Life Insurance by Akash Chauhan</h1>
+  <p>Your Trusted Insurance Partner in Uttar Pradesh</p>
+</header>
+
+<section class="quote-section" id="quote">
+  <h2>Request Your Free Quote</h2>
+  <p>Fill in your details and we'll contact you shortly.</p>
+  <form>
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="number" name="age" placeholder="Your Age" min="18" max="75" required>
+    <select name="coverage">
+      <option value="">Select Coverage Amount</option>
+      <option value="500000">₹5,00,000</option>
+      <option value="1000000">₹10,00,000</option>
+      <option value="2500000">₹25,00,000</option>
+      <option value="5000000">₹50,00,000</option>
+    </select>
+    <select name="smoker" required>
+      <option value="">Are you a smoker?</option>
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section class="hero">
+  <h2>Protect Your Family’s Future Today</h2>
+  <p>Affordable plans | No medical exam | Tax benefits under 80C</p>
+  <button class="cta-button" onclick="location.href='#quote'">Get Free Quote</button>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <h3>Fast & Easy</h3>
+    <p>Get a free quote within 60 seconds.</p>
+  </div>
+  <div class="feature">
+    <h3>Personalized Advice</h3>
+    <p>Guidance from licensed HDFC Life agent Akash Chauhan.</p>
+  </div>
+  <div class="feature">
+    <h3>Affordable Premiums</h3>
+    <p>Flexible coverage options to suit every budget.</p>
+  </div>
+</section>
+
+<a href="https://wa.me/918445304119" class="whatsapp-button" target="_blank">
+  Chat on WhatsApp
+</a>
+
+<footer>
+  <p>&copy; 2025 Akash Chauhan | HDFC Life Insurance Agent | Uttar Pradesh</p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+</footer>
+
+</body>
+</html>
